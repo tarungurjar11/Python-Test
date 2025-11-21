@@ -10,3 +10,5 @@ def home():
 @app.get("/status")
 def status():
     return {"status": "OK"}
+
+# uvicorn main:app --reload
